@@ -1,0 +1,18 @@
+# Aliases
+alias be="bundle exec"
+alias bet="BUNDLE_GEMFILE=~/Documents/Gemfile.tools"
+alias bit="bundle install --gemfile ~/Documents/Gemfile.tools --binstubs"
+alias gst="git status"
+alias gcb="git rev-parse --abbrev-ref HEAD"
+alias glpl="git --no-pager log --pretty=oneline | less"
+alias gdm="git branch --merged | grep -v \'*\' | xargs -n 1 git branch -d" #delete merged branches
+alias gbr="git rev-parse --abbrev-ref HEAD" #show current branch and set env var
+alias gpom="git push origin master"
+alias gpo="git push origin"
+alias gfo="git fetch origin"
+alias gb="git branch"
+alias gbd="git branch -d"
+alias gcd="git checkout develop"
+alias gcdp="git checkout develop && git pull origin develop"
+alias gsm="git submodule update"
+alias szrc="source ~/.zshrc"
